@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="color-1.css">
+
+    <title>Sorbonne - Repository</title>
+
+</head>
+<body>
+    
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo"><img id="img" src="Logo-1.png" width="150" height="50"></a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link ">Acceuil</a>
+                    </li>
+
+                     <li class="nav__item">
+                        <a href="cours.html" class="nav__link active-link">Cours</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="FAQs.html" class="nav__link">FAQ's</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li> 
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+            </div>
+            <div class="nav__btns">
+                <div class="login__toggle" id="login-button">
+                    <i class="bx bx-user"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== EFFECT ===============-->
+    <img class="image-gradient" src="gradient.png" alt="gradient">
+    <div class="layer-blur"></div>
+
+    <!--=============== LOGIN ===============-->
+    <div class="login" id="login">
+        <i class="bx bx-x login__close" id="login-close"></i>
+        <h2 class="login__title-center">Login</h2>
+        <form action="" class="login__form grid">
+            <div class="login__content">
+                <label for="" class="login__label">Email</label>
+                <input type="email" class="login__input">
+            </div>
+
+                        <div class="login__content">
+                <label for="" class="login__label">Password</label>
+                <input type="password" class="login__input">
+            </div>
+            <div>
+                <a href="#" class="button">Sign in</a>
+            </div>
+
+            <div>
+                <p class="signup">You don't have an account ? <a href="#">Sign up now</a></p>
+            </div>
+        </form>
+    </div>
+
+    <!--=============== COURS ===============-->
+    <section class="questions section container">
+        <h2 class="breadcrumb__title">Page de Cours</h2>
+        <h3 class="breadcrumb__subtitle">Acceuil > <span>Cours</span></h3>
+
+        <div class="content">
+            <div class="tag-box">
+                <div class="tag">Les Cours</div>
+            </div>
+
+            <h4>COURS - L1</h4>
+
+            <p class="description">Pour l’instant, il n’y a que des cours de L1 dans Sorbonne Repository parce qu’on commence petit <br> c’est le début du projet. L’idée est de construire une base solide en L1 <br> avant d’ajouter progressivement les cours des autres années, étape par étape.</p>
+            <br>
+        </div>
+
+        <div class="container3">
+        <div class="cards-grid">
+            <!-- Card 1: Mathématique Informatique -->
+            <div class="card" data-category="computer-science">
+                <div class="card-header">
+                    <div class="card-image">
+                        <div class="computer-icon">
+                            <div class="monitor"></div>
+                            <div class="keyboard"></div>
+                        </div>
+                    </div>
+                    <div class="card-badge">L1</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Mathématique Informatique (MI)</h3>
+                    <p class="card-description">
+                        Un univers où les mathématiques et l’informatique se rencontrent pour explorer des problèmes, créer des programmes, imaginer des algorithmes.
+                    </p>
+                    <div class="card-stats">
+                        <div class="stat">
+                            <span class="stat-icon">👥</span>
+                            <span class="stat-text">13 Resources</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-icon">🏛️</span>
+                            <span class="stat-text">3 Institutions</span>
+                        </div>
+                    </div>
+                    <a href="#" class="explore-btn">
+                        Explore <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 2: Mathématiques Physique Mécanique -->
+            <div class="card" data-category="mathematics">
+                <div class="card-header">
+                    <div class="card-image">
+                        <div class="analysis-icon">
+                            <div class="blackboard"></div>
+                            <div class="equations"></div>
+                        </div>
+                    </div>
+                    <div class="card-badge">L1</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Mathématiques Physique Mécanique (MPM)</h3>
+                    <p class="card-description">
+                        Explorez les lois de la nature, modéliser des phénomènes, comprendre le mouvement et concevoir des systèmes innovants.
+                    </p>
+                    <div class="card-stats">
+                        <div class="stat">
+                            <span class="stat-icon">👥</span>
+                            <span class="stat-text">13 Resources</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-icon">🏛️</span>
+                            <span class="stat-text">3 Institutions</span>
+                        </div>
+                    </div>
+                    <button class="explore-btn">
+                        Explore <span class="arrow">→</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Card 3: Physique Chimie -->
+            <div class="card" data-category="data-science">
+                <div class="card-header">
+                    <div class="card-image">
+                        <div class="asds-icon">
+                            <div class="network-grid"></div>
+                            <div class="data-points"></div>
+                        </div>
+                    </div>
+                    <div class="card-badge">L1</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Physique Chimie (PC)</h3>
+                    <p class="card-description">
+                        Un univers où la physique et la chimie s’allient pour explorer la matière, comprendre les phénomènes naturels et expérimenter les principes qui régissent le monde qui nous entoure.
+                    </p>
+                    <div class="card-stats">
+                        <div class="stat">
+                            <span class="stat-icon">👥</span>
+                            <span class="stat-text">13 Resources</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-icon">🏛️</span>
+                            <span class="stat-text">3 Institutions</span>
+                        </div>
+                    </div>
+                    <button class="explore-btn">
+                        Explore <span class="arrow">→</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Card 4: Sciences de l’Ingénieur : Électronique-Mécanique -->
+            <div class="card" data-category="physics">
+                <div class="card-header">
+                    <div class="card-image">
+                        <div class="electricity-icon">
+                            <div class="circuit-board"></div>
+                            <div class="electric-field"></div>
+                        </div>
+                    </div>
+                    <div class="card-badge">L1</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Sciences de l’Ingénieur : Électronique-Mécanique (SIEM)</h3>
+                    <p class="card-description">
+                        Un univers où l’électronique et la mécanique se rencontrent pour explorer la conception de systèmes, comprendre le fonctionnement des machines et inventer des solutions techniques innovantes.
+                    </p>
+                    <div class="card-stats">
+                        <div class="stat">
+                            <span class="stat-icon">👥</span>
+                            <span class="stat-text">11 Resources</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-icon">🏛️</span>
+                            <span class="stat-text">6 Institutions</span>
+                        </div>
+                    </div>
+                    <button class="explore-btn">
+                        Explore <span class="arrow">→</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Card 5: Sciences de la Vie et de la Terre -->
+            <div class="card" data-category="computer-science">
+                <div class="card-header">
+                    <div class="card-image">
+                        <div class="computer-icon">
+                            <div class="monitor"></div>
+                            <div class="keyboard"></div>
+                        </div>
+                    </div>
+                    <div class="card-badge">L1</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Sciences de la Vie et de la Terre (SVCST)</h3>
+                    <p class="card-description">
+                        Un univers où la biologie, la géologie et l’environnement se rencontrent pour explorer la vie, comprendre les écosystèmes et découvrir les mécanismes qui régissent notre planète.
+                    </p>
+                    <div class="card-stats">
+                        <div class="stat">
+                            <span class="stat-icon">👥</span>
+                            <span class="stat-text">13 Resources</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-icon">🏛️</span>
+                            <span class="stat-text">3 Institutions</span>
+                        </div>
+                    </div>
+                    <a href="#" class="explore-btn">
+                        Explore <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 6: Mathématiques Physique Mécanique -->
+            <div class="card" data-category="mathematics">
+                <div class="card-header">
+                    <div class="card-image">
+                        <div class="analysis-icon">
+                            <div class="blackboard"></div>
+                            <div class="equations"></div>
+                        </div>
+                    </div>
+                    <div class="card-badge">L1</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Chimie Sciences de la Terre Mécanique (CSTM)</h3>
+                    <p class="card-description">
+                        Un univers où la chimie, les sciences de la Terre et la mécanique se combinent pour explorer la matière, comprendre les phénomènes naturels et concevoir des systèmes innovants.
+                    </p>
+                    <div class="card-stats">
+                        <div class="stat">
+                            <span class="stat-icon">👥</span>
+                            <span class="stat-text">13 Resources</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-icon">🏛️</span>
+                            <span class="stat-text">3 Institutions</span>
+                        </div>
+                    </div>
+                    <button class="explore-btn">
+                        Explore <span class="arrow">→</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Card 7: Electricity 1 -->
+            <div class="card" data-category="physics">
+                <div class="card-header">
+                    <div class="card-image">
+                        <div class="electricity-icon">
+                            <div class="circuit-board"></div>
+                            <div class="electric-field"></div>
+                        </div>
+                    </div>
+                    <div class="card-badge">L1</div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Électronique Informatique</h3>
+                    <p class="card-description">
+                        un univers où l’électronique et l’informatique se rencontrent pour explorer la conception de systèmes numériques, programmer des solutions intelligentes et inventer des technologies innovantes.
+                    </p>
+                    <div class="card-stats">
+                        <div class="stat">
+                            <span class="stat-icon">👥</span>
+                            <span class="stat-text">11 Resources</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-icon">🏛️</span>
+                            <span class="stat-text">6 Institutions</span>
+                        </div>
+                    </div>
+                    <button class="explore-btn">
+                        Explore <span class="arrow">→</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <!--FOOTER CONTENT 1-->
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img src="Logo.png" alt="" width="150" height="50">
+                </a>
+                <br>
+                <br>
+                <p class="footer__description">Etudiez en toute tranquilité <br> on est là pour trouver les sources.</p>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="footer__social-link"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="footer__social-link"><i class="bx bxl-twitter"></i></a>
+                </div>
+            </div>
+
+            <!--FOOTER CONTENT 2-->
+            <div class="footer__content">
+                <h3 class="footer__title">About</h3>
+
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">About Me</a></li>
+                    <li><a href="#" class="footer__link">Participants</a></li>
+                    <li><a href="#" class="footer__link">FAQs</a></li>
+                </ul>
+            </div>
+
+             <!--FOOTER CONTENT 3-->
+            <div class="footer__content">
+                <h3 class="footer__title">Nos Services</h3>
+
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Cours</a></li>
+                    <li><a href="#" class="footer__link">Contact</a></li>
+                    <li><a href="#" class="footer__link">Login</a></li>
+                </ul>
+            </div>
+
+             <!--FOOTER CONTENT 4-->
+            <div class="footer__content">
+                <h3 class="footer__title">Our Website</h3>
+
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Register</a></li>
+                    <li><a href="#" class="footer__link">Contact Us</a></li>
+                    <li><a href="#" class="footer__link">About Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <span class="footer__copy">&#169; Aymene Haroune - All rights reserved</span>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+    <!--=============== JS ===============-->
+    <script src="main.js"></script>
+</body>
+</html>

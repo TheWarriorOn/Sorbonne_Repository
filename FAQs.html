@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="color-1.css">
+
+    <title>Sorbonne - Repository</title>
+
+</head>
+<body>
+    
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo"><img id="img" src="Logo-1.png" width="150" height="50"></a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link ">Acceuil</a>
+                    </li>
+
+                     <li class="nav__item">
+                        <a href="cours.html" class="nav__link ">Cours</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="FAQs.html" class="nav__link active-link">FAQ's</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contact</a>
+                    </li> 
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+            </div>
+            <div class="nav__btns">
+                <div class="login__toggle" id="login-button">
+                    <i class="bx bx-user"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== EFFECT ===============-->
+    <img class="image-gradient" src="gradient.png" alt="gradient">
+    <div class="layer-blur"></div>
+
+    <!--=============== LOGIN ===============-->
+    <div class="login" id="login">
+        <i class="bx bx-x login__close" id="login-close"></i>
+        <h2 class="login__title-center">Login</h2>
+        <form action="" class="login__form grid">
+            <div class="login__content">
+                <label for="" class="login__label">Email</label>
+                <input type="email" class="login__input">
+            </div>
+
+                        <div class="login__content">
+                <label for="" class="login__label">Password</label>
+                <input type="password" class="login__input">
+            </div>
+            <div>
+                <a href="#" class="button">Sign in</a>
+            </div>
+
+            <div>
+                <p class="signup">You don't have an account ? <a href="#">Sign up now</a></p>
+            </div>
+        </form>
+    </div>
+
+    <!--=============== FAQs ===============-->
+    <section class="questions section container">
+        <h2 class="breadcrumb__title">Page des questions</h2>
+        <h3 class="breadcrumb__subtitle">Acceuil > <span>FAQs</span></h3>
+
+        <div class="content">
+            <div class="tag-box">
+                <div class="tag">Vos questions</div>
+            </div>
+
+            <h4>ENGAGEMENT</h4>
+
+            <p class="description">Nous nous engageons à répondre à toutes vos questions, que ce soit sur le fonctionnement du Sorbonne Repository, sur l’ajout de ressources ou sur l’utilisation de la plateforme. <br> N’hésitez pas à demander, chaque question trouvera sa réponse !</p>
+            <br><br>
+        </div>
+        <div class="questions__container grid">
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="bx bx-plus question__icon"></i>
+                            <h3 class="question__item-title">Qui suis-je ?</h3>
+                        </header>
+
+                        <div class="question__content">
+                            <p class="questions__description">
+                                Je suis Aymene Haroune, actuellement étudiant en Licence 1 d’informatique à la Sorbonne après une première année à l’ESTIN. Titulaire d’un baccalauréat mention Très Bien, je suis passionné par l’informatique, et plus particulièrement par l’intelligence artificielle, domaine dans lequel j’aspire à développer des projets innovants, dans les domaines de l’éducation.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="bx bx-plus question__icon"></i>
+                            <h3 class="question__item-title">Qu'est ce que Sorbonne Repository</h3>
+                        </header>
+
+                        <div class="question__content">
+                            <p class="questions__description">
+                                Sorbonne Repository est une plateforme collaborative destinée aux étudiants de la Sorbonne, conçue pour centraliser et partager des ressources académiques : cours, TD, TME, annales, corrigés et notes. L’objectif est de faciliter l’accès aux supports d’apprentissage et de créer une bibliothèque numérique commune, enrichie progressivement par la contribution des étudiants.
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="bx bx-plus question__icon"></i>
+                            <h3 class="question__item-title">Y aura t'il une plateforme pour tout les niveaux ?</h3>
+                        </header>
+
+                        <div class="question__content">
+                            <p class="questions__description">
+                                Oui, l’objectif est que Sorbonne Repository devienne une plateforme qui regroupe les ressources pour tous les niveaux. Pour l’instant, on commence avec la L1 afin de poser les bases, puis on élargira progressivement aux autres années (L2, L3, Master…), toujours avec l’aide des contributions étudiantes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="bx bx-plus question__icon"></i>
+                            <h3 class="question__item-title">Comment contribuer ?</h3>
+                        </header>
+
+                        <div class="question__content">
+                            <p class="questions__description">
+                                Pour contribuer à Sorbonne Repository, il suffit de partager tes ressources (cours, TD, TME, annales, corrigés, notes…) en les envoyant à l’équipe du projet. Chaque contribution aide à enrichir la plateforme et profite à toute la communauté étudiante. Plus on est nombreux à participer, plus la base de connaissances sera complète et utile pour tous.
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="bx bx-plus question__icon"></i>
+                            <h3 class="question__item-title">Y aura-t-il une modération ou une vérification des contenus ?</h3>
+                        </header>
+
+                        <div class="question__content">
+                            <p class="questions__description">
+                                Oui, toutes les ressources partagées sur Sorbonne Repository seront vérifiées et modérées par l’équipe du projet avant d’être publiées. Cela permet de garantir que les contenus sont fiables, complets et pertinents pour les étudiants, tout en maintenant la qualité et l’organisation de la plateforme.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="bx bx-plus question__icon"></i>
+                            <h3 class="question__item-title">Peut-on proposer des améliorations pour la plateforme ?</h3>
+                        </header>
+
+                        <div class="question__content">
+                            <p class="questions__description">
+                                Bien sûr ! Sorbonne Repository est un projet collaboratif, et toutes les suggestions pour améliorer la plateforme sont les bienvenues. Que ce soit pour l’organisation des ressources, de nouvelles fonctionnalités ou l’expérience utilisateur, vos idées aideront à faire évoluer le projet et à le rendre encore plus utile pour tous les étudiants.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <!--FOOTER CONTENT 1-->
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img src="Logo.png" alt="" width="150" height="50">
+                </a>
+                <br>
+                <br>
+                <p class="footer__description">Etudiez en toute tranquilité <br> on est là pour trouver les sources.</p>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="footer__social-link"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="footer__social-link"><i class="bx bxl-twitter"></i></a>
+                </div>
+            </div>
+
+            <!--FOOTER CONTENT 2-->
+            <div class="footer__content">
+                <h3 class="footer__title">About</h3>
+
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">About Me</a></li>
+                    <li><a href="#" class="footer__link">Participants</a></li>
+                    <li><a href="#" class="footer__link">FAQs</a></li>
+                </ul>
+            </div>
+
+             <!--FOOTER CONTENT 3-->
+            <div class="footer__content">
+                <h3 class="footer__title">Nos Services</h3>
+
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Cours</a></li>
+                    <li><a href="#" class="footer__link">Contact</a></li>
+                    <li><a href="#" class="footer__link">Login</a></li>
+                </ul>
+            </div>
+
+             <!--FOOTER CONTENT 4-->
+            <div class="footer__content">
+                <h3 class="footer__title">Our Website</h3>
+
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Register</a></li>
+                    <li><a href="#" class="footer__link">Contact Us</a></li>
+                    <li><a href="#" class="footer__link">About Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <span class="footer__copy">&#169; Aymene Haroune - All rights reserved</span>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+    <!--=============== JS ===============-->
+    <script src="main.js"></script>
+</body>
+</html>
