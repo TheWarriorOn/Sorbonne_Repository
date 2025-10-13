@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="color-1.css">
+
+    <title>Sorbonne - Repository</title>
+
+</head>
+<body>
+    
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo"><img id="img" src="../Logo-1.png" width="150" height="50"></a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link ">Acceuil</a>
+                    </li>
+
+                     <li class="nav__item">
+                        <a href="../cours.html" class="nav__link  active-link">Cours</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="../FAQs.html" class="nav__link">FAQ's</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="../contact.html" class="nav__link">Contact</a>
+                    </li> 
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+            </div>
+            <div class="nav__btns">
+                <div class="login__toggle" id="login-button">
+                    <i class="bx bx-user"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--=============== LOGIN ===============-->
+    <div class="login" id="login">
+        <i class="bx bx-x login__close" id="login-close"></i>
+        <h2 class="login__title-center">Login</h2>
+        <form action="" class="login__form grid">
+            <div class="login__content">
+                <label for="" class="login__label">Email</label>
+                <input type="email" class="login__input">
+            </div>
+
+                        <div class="login__content">
+                <label for="" class="login__label">Password</label>
+                <input type="password" class="login__input">
+            </div>
+            <div>
+                <a href="#" class="button">Sign in</a>
+            </div>
+
+            <div>
+                <p class="signup">You don't have an account ? <a href="#">Sign up now</a></p>
+            </div>
+        </form>
+    </div>
+
+    <!--=============== CONTENT ===============-->
+    <div class="page-wrapper">
+        <!-- Background Effects -->
+        <div class="background-effects">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+
+        <!-- Header Section -->
+        <header class="header-section">
+            <div class="container">
+                <div class="header-content">
+                    <div class="course-badge">
+                        <div class="badge-glow"></div>
+                        <span class="badge-text">2025-2026 Année Scolaire</span>
+                    </div>
+
+                    <h1 class="main-title">Portail Mathématique informatique</h1>
+
+                    <p class="main-description">
+                        Ce cours aborde les principes fondamentaux des mathématiques pour l’informatique, notamment la logique, 
+                        les ensembles, les relations, les fonctions, les graphes, et les probabilités. Il vise à fournir aux 
+                        étudiants une compréhension solide des outils mathématiques essentiels à la modélisation, 
+                        à l’analyse et à la résolution de problèmes informatiques.
+                    </p>
+
+                    <div class="header-meta">
+                        <div class="meta-item">
+                            <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                            <span>Etudiants Sorbonne</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="location-dot"></span>
+                            <span>Jussieu, Paris</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <!-- Resources Section -->
+                <section class="resources-section">
+                    <h2 class="section-title">Resources du cours</h2>
+
+                    <div class="collapsible-group">
+                        <!-- Drives -->
+                        <div class="collapsible-item">
+                            <button class="collapsible-header">
+                                <div class="header-left">
+                                    <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                                    </svg>
+                                    <span class="collapsible-title">Drives</span>
+                                </div>
+                                <span class="expand-icon">+</span>
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="resource-list">
+                                    <div class="resource-item">
+                                        <span class="resource-icon">📄</span>
+                                        <span>Mathématique - 1</span>
+                                    </div>
+                                    <div class="resource-item">
+                                        <span class="resource-icon">📄</span>
+                                        <span>Informatique - Algo</span>
+                                    </div>
+                                    <div class="resource-item">
+                                        <span class="resource-icon">📄</span>
+                                        <span>Science des données - SDD</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Youtube -->
+                        <div class="collapsible-item">
+                            <button class="collapsible-header">
+                                <div class="header-left">
+                                    <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polyline points="16 18 22 12 16 6"></polyline>
+                                        <polyline points="8 6 2 12 8 18"></polyline>
+                                    </svg>
+                                    <span class="collapsible-title">Youtube</span>
+                                </div>
+                                <span class="expand-icon">+</span>
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="resource-list">
+                                    <div class="resource-item">
+                                        <span class="resource-icon">🎥</span>
+                                        <span>Bro code - Python full course</span>
+                                    </div>
+                                    <div class="resource-item">
+                                        <span class="resource-icon">🎥</span>
+                                        <span>Hassan El Bahi - Algorithmique</span>
+                                    </div>
+                                    <div class="resource-item">
+                                        <span class="resource-icon">🎥</span>
+                                        <span>Neso Academy - Algorithmic and dynamic data structure</span>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <!-- Books -->
+                        <div class="collapsible-item">
+                            <button class="collapsible-header">
+                                <div class="header-left">
+                                    <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                                    </svg>
+                                    <span class="collapsible-title">Livres</span>
+                                </div>
+                                <span class="expand-icon">+</span>
+                            </button>
+                            <div class="collapsible-content">
+                                <div class="resource-list">
+                                    <div class="resource-item">
+                                        <span class="resource-icon">📚</span>
+                                        <span>Pas diponible pour le moment</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Statistics Cards -->
+                <section class="cards-section">
+                    <h2 class="section-title">Course Statistics</h2>
+                    <div class="stats-grid">
+                        <!-- Card 1 -->
+                        <div class="stat-card card-blue">
+                            <div class="stat-icon-wrapper">
+                                <div class="stat-icon-bg"></div>
+                                <svg class="stat-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                                </svg>
+                            </div>
+                            <div class="stat-content">
+                                <h3 class="stat-number">13</h3>
+                                <p class="stat-label">Total Resources</p>
+                                <p class="stat-sublabel">13 files available</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="stat-card card-purple">
+                            <div class="stat-icon-wrapper">
+                                <div class="stat-icon-bg"></div>
+                                <svg class="stat-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <div class="stat-content">
+                                <h3 class="stat-number">5</h3>
+                                <p class="stat-label">Institutions</p>
+                                <p class="stat-sublabel">5 institutions</p>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="stat-card card-orange">
+                            <div class="stat-icon-wrapper">
+                                <div class="stat-icon-bg"></div>
+                                <svg class="stat-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                            </div>
+                            <div class="stat-content">
+                                <h3 class="stat-number">4</h3>
+                                <p class="stat-label">Categories</p>
+                                <p class="stat-sublabel">4 categories</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- About Section -->
+                <section class="about-section">
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                            </svg>
+                        </div>
+                        <h3 class="about-title">À propos du cours</h3>
+                        <p class="about-text">
+                            Le cours de Mathématiques pour l’informatique a pour objectif de fournir les bases théoriques 
+                            indispensables à la compréhension et à la pratique de l’informatique. Il couvre des domaines 
+                            essentiels tels que la logique mathématique, les ensembles, les relations, les fonctions, les graphes, 
+                            la combinatoire et les probabilités.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Floating Particles -->
+        <div class="floating-particles">
+            <div class="particle particle-1"></div>
+            <div class="particle particle-2"></div>
+            <div class="particle particle-3"></div>
+            <div class="particle particle-4"></div>
+            <div class="particle particle-5"></div>
+        </div>
+    </div>
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <!--FOOTER CONTENT 1-->
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img src="../Logo.png" alt="" width="150" height="50">
+                </a>
+                <br>
+                <br>
+                <p class="footer__description">Etudiez en toute tranquilité <br> on est là pour trouver les sources.</p>
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="footer__social-link"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="footer__social-link"><i class="bx bxl-twitter"></i></a>
+                </div>
+            </div>
+
+            <!--FOOTER CONTENT 2-->
+            <div class="footer__content">
+                <h3 class="footer__title">About</h3>
+
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">About Me</a></li>
+                    <li><a href="#" class="footer__link">Participants</a></li>
+                    <li><a href="#" class="footer__link">FAQs</a></li>
+                </ul>
+            </div>
+
+             <!--FOOTER CONTENT 3-->
+            <div class="footer__content">
+                <h3 class="footer__title">Nos Services</h3>
+
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Cours</a></li>
+                    <li><a href="#" class="footer__link">Contact</a></li>
+                    <li><a href="#" class="footer__link">Login</a></li>
+                </ul>
+            </div>
+
+             <!--FOOTER CONTENT 4-->
+            <div class="footer__content">
+                <h3 class="footer__title">Our Website</h3>
+
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Register</a></li>
+                    <li><a href="#" class="footer__link">Contact Us</a></li>
+                    <li><a href="#" class="footer__link">About Us</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <span class="footer__copy">&#169; Aymene Haroune - All rights reserved</span>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+    <!--=============== JS ===============-->
+    <script src="script.js"></script>
+</body>
+</html>
